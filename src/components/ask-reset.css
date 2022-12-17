@@ -1,0 +1,25 @@
+.ask-reset-section {
+	border-bottom: 32px solid var(--darker);
+}
+.ask-reset-text {
+	margin: 16px;
+	align-self: center;
+	text-align: center;
+}
+.ask-buttons {
+	width: 100%;
+}
+.ask-reset-btn {
+	width: 50%;
+	background-color: var(--darkest);
+	color: var(--accentColor);
+	border: 2px solid var(--accentColor);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 16px;
+}
+.cancel-reset-btn {
+	color: var(--lightest);
+	border-left: none;
+}

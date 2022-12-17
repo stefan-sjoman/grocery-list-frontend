@@ -1,0 +1,17 @@
+:root {
+	--accentColor: rgb(20, 200, 200);
+	--lightest: rgb(240, 240, 240);
+	--lighter: rgb(190, 190, 190);
+	--middle: rgb(120, 120, 120);
+	--darker: rgb(70, 70, 70);	
+	--darkest: rgb(20, 20, 20);
+	--error: rgb(255, 150, 150);
+}
+
+body {
+	margin: 0;
+	background-color: var(--lighter);
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

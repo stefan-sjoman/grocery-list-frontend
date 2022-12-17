@@ -1,0 +1,11 @@
+.taken-list li {
+	color: var(--middle);
+	border-bottom: 2px solid var(--middle);
+}
+.remove-btn {
+	height: 18px;
+	width: 18px;
+	border: none;
+	background: url('../assets/remove18x18.png');
+	background-size: cover;
+}

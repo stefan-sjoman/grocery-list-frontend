@@ -1,0 +1,31 @@
+.add-new-section {
+	display: flex;
+	border-top: 2px solid var(--darkest);
+	border-bottom: 2px solid var(--darkest);
+}
+.add-new-input {
+	width: 60%;
+	height: 48px;
+	border: none;
+	border-right: 2px solid var(--darkest);
+	font-size: 16px;
+	padding: 0px 8px;
+	outline: none;
+}
+.add-new-input-error {
+	background-color: var(--error);
+}
+.add-btn {
+	width: 40%;
+	background-color: var(--darkest);
+	color: var(--accentColor);
+	border: 2px solid var(--accentColor);
+	padding-right: 1px; /*due to letter-spacing*/
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.add-btn:disabled {
+	color: var(--middle);
+	border: 2px solid var(--middle);
+}

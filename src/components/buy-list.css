@@ -1,0 +1,11 @@
+.buy-list li {
+	background-color: var(--darkest);
+	border-top: 2px solid var(--accentColor);
+}
+.delete-btn {
+	height: 18px;
+	width: 18px;
+	border: none;
+	background: url('../assets/delete18x18.png');
+	background-size: cover;
+}

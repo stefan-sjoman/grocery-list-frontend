@@ -1,0 +1,27 @@
+.header-comp {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 16px 8px;
+}
+.trademark {
+	display: flex;
+	align-items: center;
+}
+h1 {
+	font-size: 24px;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	color: var(--accentColor);
+	margin: 0px;
+	padding: 0px;
+}
+
+.reset-btn {
+	height: 24px;
+	width: 20px;
+	border: none;
+	background: url('../assets/trash24x20.png');
+	background-size: cover;
+}
